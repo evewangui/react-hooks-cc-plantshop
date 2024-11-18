@@ -17,13 +17,15 @@
       "id": 3,
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
-      "price": 5.99
+      "price": 5.99,
+      "soldOut": true
     },
     {
       "id": 4,
       "name": "Pothos",
       "image": "./images/pothos.jpg",
-      "price": 12.11
+      "price": 12.11,
+      "soldOut": true
     },
     {
       "id": 5,
@@ -43,6 +45,12 @@
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55,
       "soldOut": false
+    },
+    {
+      "name": "eve",
+      "image": "",
+      "price": 87,
+      "id": 8
     }
   ]
 }
