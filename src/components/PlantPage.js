@@ -9,7 +9,7 @@ function PlantPage() {
 
   // Fetch plant data when the component mounts
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://react-hooks-cc-plantshop-02.onrender.com/plants")
       .then((response) => response.json())
       .then((data) => setPlants(data));
   }, []);
@@ -19,7 +19,7 @@ function PlantPage() {
     setPlants((prevPlants) => [...prevPlants, newPlant]);
 
     // Send a POST request to the server to add the new plant
-    fetch("http://localhost:6001/plants", {
+    fetch("https://react-hooks-cc-plantshop-02.onrender.com/plants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

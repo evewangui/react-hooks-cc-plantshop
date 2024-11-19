@@ -8,7 +8,7 @@ function PlantCard({ plant }) {
     setSoldOut(!soldOut);
 
     // Send a PATCH request to update the sold-out status on the server
-    fetch(`  http://localhost:6001/plants/${plant.id}`, {
+    fetch(`  https://react-hooks-cc-plantshop-02.onrender.com/plants/${plant.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
